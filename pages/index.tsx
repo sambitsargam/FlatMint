@@ -14,20 +14,13 @@ import {
 import bannerImage from "./../assets/banner.png";
 import Image from "next/image";
 import Link from "next/link";
-import { CanvasClient } from "@dscvr-one/canvas-client-sdk";
-import { useEffect } from "react";
-
 
 const Home: NextPage = () => {
-  useEffect(function onFirstMount() {
-    if (window.self !== window.top) {
-      const canvasClient = new CanvasClient();
-    }
-  }, []); 
   return (
     <div>
       <Head>
         <title>FlatMint</title>
+        
 <meta name="dscvr:canvas:version" content="vNext"> </meta>
 <meta name="og:image" content="https://my-canvas.com/preview-image.png"></meta>
         <meta name="description" content="Draw your NFT and mint them" />
