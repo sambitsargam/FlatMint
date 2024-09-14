@@ -20,9 +20,9 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>FlatMint</title>
-        
-<meta name="dscvr:canvas:version" content="vNext"> </meta>
-<meta name="og:image" content="https://my-canvas.com/preview-image.png"></meta>
+
+        <meta name="dscvr:canvas:version" content="vNext" />
+        <meta name="og:image" content="https://my-canvas.com/preview-image.png" />
         <meta name="description" content="Draw your NFT and mint them" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
